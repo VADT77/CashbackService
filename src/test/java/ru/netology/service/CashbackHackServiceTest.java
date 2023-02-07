@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
     public void testRemain1000() {
         CashbackHackService service = new CashbackHackService();
 
-        int expected = 1000;
+        int expected = 0;
         int amount = 1000;
         int result = service.remain(amount);
 
